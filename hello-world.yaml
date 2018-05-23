@@ -74,7 +74,6 @@ items:
         from:
           kind: ImageStreamTag
           name: hello-world:latest
-          namespace: test-sb
       type: ImageChange
 - apiVersion: v1
   kind: Service
