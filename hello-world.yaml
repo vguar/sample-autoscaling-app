@@ -15,7 +15,7 @@ items:
         openshift.io/imported-from: quay.io/vguar/hello-world-java
       from:
         kind: DockerImage
-        name: docker-registry.default.svc:5000/hello-world/hello-world-java:latest
+        name: quay.io/vguar/hello-world-java
       generation: 2
       importPolicy: {}
       name: latest
